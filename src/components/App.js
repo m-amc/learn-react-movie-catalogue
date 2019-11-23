@@ -19,7 +19,8 @@ function App() {
     <ConfigContext.Provider value = {config}>
       <div className="App">
         <header>
-          <h1>Movie Catalog</h1>
+          <h1>Movie Catalogue</h1>
+          <p>(React Hooks Demonstration)</p>
         </header>
 
         <Catalogue />

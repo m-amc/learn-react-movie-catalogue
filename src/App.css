@@ -2,6 +2,34 @@
   text-align: center;
 }
 
+body {
+  background: #181717;
+}
+
+header {
+  height: 15vh;
+  border-bottom: 1px solid gray;
+}
+
+h1, h2, p, label {
+  color: white;
+}
+
+input {
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+main {
+  padding: 1rem;
+}
+
+img {
+  width: 100%;
+}
+
 .movie-catalogue {
   display: flex;
   flex-wrap: wrap;
@@ -11,7 +39,6 @@
 
 .movie-poster {
   width: 20%;
-  border:2px solid salmon;
 }
 
 img {

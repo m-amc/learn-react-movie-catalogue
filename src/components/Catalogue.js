@@ -91,9 +91,7 @@ const Catalogue = () => {
 
     // Here we are using the context to determine if we are rendering the catalog or not based on isAuthorized config
     return context.isAuthorized === false ? <p>You are not authorized</p> : (
-        <React.Fragment>
-            <p>This simple app uses react hooks</p>
-
+        <main>
             <label htmlFor="movie-year">Year: </label>
             <input 
                 id="movie-year"
@@ -102,7 +100,7 @@ const Catalogue = () => {
                 onChange={handleYearChange}
             />
 
-            <h2>{`Movie Year: ${year}`}</h2>
+            <h2>Movies of {`${year}`}</h2>
 
             <div className='movie-catalogue'>
                 {    
@@ -118,7 +116,7 @@ const Catalogue = () => {
 
             <div>{errorMessage}</div>
 
-        </React.Fragment>
+        </main>
     )
 }
 

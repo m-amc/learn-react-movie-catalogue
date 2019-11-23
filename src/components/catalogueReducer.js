@@ -1,3 +1,4 @@
+// This is the reducer function
 const catalogueReducer = (state, action) => {
     switch (action.type) {
         case "setYear":
