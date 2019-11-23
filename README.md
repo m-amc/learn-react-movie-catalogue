@@ -1,6 +1,6 @@
-Movie Catalogue using [React Hooks](https://reactjs.org/docs/hooks-intro.html)
+# Movie Catalogue using [React Hooks](https://reactjs.org/docs/hooks-intro.html)
 
-This app demonstrates how to use useState, useEffect, useContext, and useReducer hooks.  
+This app demonstrates how to use useState, useEffect, useContext, and useReducer hooks.
 You will need to create an account in https://www.themoviedb.org/ and use your API key to run this app.
 
 Note: You should not hard code or commit your api keys!
@@ -14,4 +14,9 @@ Note: You should not hard code or commit your api keys!
 - Still in cl-react-movie-catalog directory, create a .env file (note the file is .env - this is an environment file)
 - Edit the .env file in your ide of choice and add ```REACT_APP_MOVIE_API_KEY=<your api key here>``` and save.
 - ```npm start```
+
+## To Do
+- Better styling
+- Responsive design
+- Web Accessibility
 
