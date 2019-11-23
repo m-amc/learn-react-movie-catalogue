@@ -11,6 +11,16 @@ header {
   border-bottom: 1px solid gray;
 }
 
+footer a {
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+footer span a{
+  padding-left: 0;
+}
+
 h1, h2, p, label {
   color: white;
 }
@@ -28,6 +38,7 @@ main {
 
 img {
   width: 100%;
+  display: block;
 }
 
 .movie-catalogue {
@@ -39,9 +50,4 @@ img {
 
 .movie-poster {
   width: 20%;
-}
-
-img {
-  width: 100%;
-  display: block;
 }
